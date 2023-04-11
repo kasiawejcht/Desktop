@@ -56,14 +56,14 @@ nav a {
   cursor: not-allowed;
 }
 .overlay {
-  height: 100vh;
+  height: calc(100vh - 50px);
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
   display: flex;
 }
 .main-background {
-  height: 100vh;
+  height: calc(100vh - 50px);
   width: 100%;
   color: #fff;
   background-size: cover;
